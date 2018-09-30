@@ -45,12 +45,12 @@
 <body>
 
   <!-- Navbar -->
-  <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar" >
     <div class="container">
 
       <!-- Brand -->
       <a class="navbar-brand" href="https://mdbootstrap.com/material-design-for-bootstrap/" target="_blank">
-        <strong>MDB</strong>
+        <strong>BEAUTY</strong>
       </a>
 
       <!-- Collapse -->
@@ -65,18 +65,28 @@
         <!-- Left -->
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home
+            <a class="nav-link" href="#">
+              Главная
               <span class="sr-only">(current)</span>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="https://mdbootstrap.com/material-design-for-bootstrap/" target="_blank">About MDB</a>
+            <a class="nav-link" href="#about" target="_blank">
+              Обо мне</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="https://mdbootstrap.com/getting-started/" target="_blank">Free download</a>
+            <a class="nav-link" href="#services" target="_blank">
+              Услуги</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="https://mdbootstrap.com/bootstrap-tutorial/" target="_blank">Free tutorials</a>
+            <a class="nav-link" href="#kosmetika" target="_blank">
+              Косметика
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#footer" target="_blank">
+              Контакты
+            </a>
           </li>
         </ul>
 
@@ -93,9 +103,9 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="https://github.com/mdbootstrap/bootstrap-material-design" class="nav-link border border-light rounded waves-effect waves-light"
+            <a href="tel:89961666762" class="nav-link border border-light rounded waves-effect waves-light"
               target="_blank">
-              <i class="fa fa-github mr-2"></i>MDB GitHub
+              <i class="fa fa-phone mr-2"></i>8(927) 641-09-21
             </a>
           </li>
         </ul>
@@ -136,11 +146,13 @@
             <!-- Content -->
             <div class="text-center white-text mx-5 wow fadeIn">
               <h1 class="mb-4">
-                <strong>Уход за кожей лица</strong>
+                <strong>
+                  Лифтинг и Омоложение.
+                </strong>
               </h1>
 
               <p>
-                <strong>Лучшая косметика и материалы.</strong>
+                <strong>Процедура лифтинга весьма эффективная, совершенно безболезненная</strong>
               </p>
 
               <p class="mb-4 d-none d-md-block">
@@ -170,11 +182,13 @@
             <!-- Content -->
             <div class="text-center white-text mx-5 wow fadeIn">
               <h1 class="mb-4">
-                <strong>Уход за кожей лица</strong>
+                <strong>
+                  Массаж + безинъекционная мезотерапия.
+                </strong>
               </h1>
 
               <p>
-                <strong>Лучшая косметика и материалы.</strong>
+                <strong>Визуальный эффект виден уже после первой процедуры.</strong>
               </p>
 
               <p class="mb-4 d-none d-md-block">
@@ -296,7 +310,7 @@
 
       <hr class="my-5">
       <!-- Section: Team v.2 -->
-      <section class="team-section text-center my-5">
+      <section class="team-section text-center my-5" id="about">
 
         <!-- Section heading -->
         <h2 class="h1-responsive font-weight-bold my-5">Не много обо мне</h2>
@@ -327,10 +341,27 @@
           </div>
           <!-- Grid column -->
           <!-- Grid column -->
-          <div class="col-md-8mb-md-0 mb-5">
+          <div class="col-md-6 text-left mb-5" style="margin-left: 100px;">
             <p>
-
+              Привет, меня зовут Татьяна! И я профессиональный косметолог.
+              Мой опыт работы в косметологии более 9 лет.
+              Мои клиенты, так же важны для меня, как качество материалов
+              и косметики, которую я использую в процедурах.
+              Индивидуальный подход к каждому клиенту.
+              <br/><br/>
+              Обращаясь ко мне вы получаете:
+              <ul>
+                <li>Качественное обслуживание.</li>
+                <li>100% гарантированный результат.</li>
+                <li>Эффективные процедуры (результат заметен уже после первого сеанса).</li>
+                <li>Результат не прибегая к хирургическому вмешательству. </li>
+                <li>Выгодные цены.</li>
+                <li>Максимально эффективный и безопасный результат в сжатые сроки.</li>
+              </ul>
             </p>
+            <a data-toggle="modal" data-target="#basicExampleModal" class="btn btn-outline-black btn-lg mt-5">
+              Записаться
+            </a>
           </div>
           <!-- Grid column -->
         </div>
@@ -338,7 +369,7 @@
 
       </section>
       <!-- Section: Team v.2 -->
-      <section>
+      <section id="services">
 
         <h2 class="h1-responsive font-weight-bold text-center my-5">Услуги</h2>
 
@@ -449,14 +480,16 @@
           </div>
 
         </div>
-
+        <a data-toggle="modal" data-target="#basicExampleModal" class="btn btn-outline-black btn-lg mt-5" style="margin: 30px 30px auto auto; margin-bottom: 80px; left: 50%; transform: translateX(-50%);">
+          Узнать больше
+        </a>
       </section>
       <!--Section: More-->
       <section>
 
-        <h2 class="h1-responsive font-weight-bold text-center my-5">Мало ?</h2>
+        <h2 class="h1-responsive font-weight-bold text-center my-5 mt-5">Мало ?</h2>
         <!--First row-->
-        <div class="row features-small mb-5 mt-3 wow fadeIn">
+        <div class="row features-small mb-5 mt-3 wow fadeIn pt-5 ">
 
           <!--First column-->
           <div class="col-md-4">
@@ -558,7 +591,7 @@
 
       </section>
       <!--Carousel Wrapper-->
-      <section class="text-center my-5">
+      <section class="text-center my-5" id="kosmetika">
 
         <!-- Section heading -->
         <h2 class="h1-responsive font-weight-bold text-center my-5">Лучшая косметика</h2>
@@ -569,435 +602,353 @@
           последних научных разработок и внимание
           к индивидуальным потребностям каждой женщины.
         </p>
+
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+
+          <div class="carousel-inner" id="kosmetika">
+            <div class="carousel-item active pt-4 pb-4">
+              <div class="row justify-content-center">
+                <div class="card card-cascade wider col-lg-3 ml-2 mr-2">
+                  <!-- Card image -->
+                  <div class="view view-cascade overlay">
+                    <img class="card-img-top" src="./img/hydra-1.jpeg" alt="Card image cap">
+                    <a href="#!">
+                      <div class="mask rgba-white-slight"></div>
+                    </a>
+                  </div>
+
+                  <!-- Card content -->
+                  <div class="card-body card-body-cascade text-center">
+
+                    <!-- Title -->
+                    <h5 class="card-title"><strong>ARTISTRY HYDRA-V™</strong></h5>
+                    <!-- Subtitle -->
+                    <!-- Text -->
+                    <p class="card-text">
+                      "Глубокое увлажнение" для сухой кожи
+                    </p>
+
+                  </div>
+
+                </div>
+                <!-- Card -->
+                <div class="card card-cascade wider col-lg-3 ml-2 mr-2">
+                  <!-- Card image -->
+                  <div class="view view-cascade overlay">
+                    <img class="card-img-top" src="./img/xtend.jpg" alt="Card image cap">
+                    <a href="#!">
+                      <div class="mask rgba-white-slight"></div>
+                    </a>
+                  </div>
+
+                  <!-- Card content -->
+                  <div class="card-body card-body-cascade text-center">
+
+                    <!-- Title -->
+                    <h5 class="card-title">
+                      <strong>
+                        ARTISTRY YOUTH XTEND™
+                      </strong>
+                    </h5>
+                    <!-- Subtitle -->
+                    <!-- Text -->
+                    <p class="card-text">
+                      Концентрированная сыворотка
+                    </p>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+            <div class="carousel-item pt-4 pb-4">
+              <div class="row justify-content-center">
+              <div class="card card-cascade wider col-lg-3 ml-2 mr-2">
+
+                <!-- Card image -->
+                <div class="view view-cascade overlay">
+                  <img class="card-img-top" src="./img/scincare.jpeg" alt="Card image cap">
+                  <a href="#!">
+                    <div class="mask rgba-white-slight"></div>
+                  </a>
+                </div>
+
+                <!-- Card content -->
+                <div class="card-body card-body-cascade text-center">
+
+                  <!-- Title -->
+                  <h4 class="card-title"><strong>ARTISTRY INTENSIVE SKINCARE™ </strong></h4>
+
+                  <p class="card-text">Средство с витамином С и гиалуроновой кислотой</p>
+
+                </div>
+
+              </div>
+              <div class="card card-cascade wider col-lg-3 ml-2 mr-2">
+                <!-- Card image -->
+                <div class="view view-cascade overlay">
+                  <img class="card-img-top" src="./img/idr-2.jpeg" alt="Card image cap">
+                  <a href="#!">
+                    <div class="mask rgba-white-slight"></div>
+                  </a>
+                </div>
+
+                <!-- Card content -->
+                <div class="card-body card-body-cascade text-center">
+
+                  <!-- Title -->
+                  <h4 class="card-title"><strong>ARTISTRY IDEAL RADIANCE™</strong></h4>
+                  <!-- Subtitle -->
+                  <!-- Text -->
+                  <p class="card-text">Сыворотка, выравнивающая тон кожи </p>
+
+                </div>
+
+              </div>
+            </div>
+              </div>
+            <div class="carousel-item pt-4 pb-4">
+              <div class="row justify-content-center">
+              <div class="card card-cascade wider col-lg-3 ml-2 mr-2">
+
+                <!-- Card image -->
+                <div class="view view-cascade overlay">
+                  <img class="card-img-top" src="./img/scrab.jpeg" alt="Card image cap">
+                  <a href="#!">
+                    <div class="mask rgba-white-slight"></div>
+                  </a>
+                </div>
+
+                <!-- Card content -->
+                <div class="card-body card-body-cascade text-center">
+
+                  <!-- Title -->
+                  <h4 class="card-title"><strong>ARTISTRY™</strong></h4>
+
+                  <p class="card-text">Очищающий скраб для кожи лица </p>
+
+                </div>
+
+              </div>
+              <div class="card card-cascade wider col-lg-3 ml-2 mr-2">
+                <!-- Card image -->
+                <div class="view view-cascade overlay">
+                  <img class="card-img-top" src="./img/hedra-crem.jpeg" alt="Card image cap">
+                  <a href="#!">
+                    <div class="mask rgba-white-slight"></div>
+                  </a>
+                </div>
+
+                <!-- Card content -->
+                <div class="card-body card-body-cascade text-center">
+
+                  <!-- Title -->
+                  <h4 class="card-title"><strong>ARTISTRY HYDRA-V™</strong></h4>
+                  <p class="card-text">Обогащающий увлажняющий крем для кожи лица</p>
+
+                </div>
+
+              </div>
+            </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" style="width: 40px; height: 40px;" aria-hidden="true"></span>
+            <span class="sr-only" >Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next" >
+            <span class="carousel-control-next-icon" style="width: 40px; height: 40px;" aria-hidden="true"></span>
+            <span class="sr-only" >Next</span>
+          </a>
+        </div>
       </section>
-<div id="carousel-example-1z" class="carousel slide carousel-fade" data-ride="carousel">
-  <!--Indicators-->
-  <ol class="carousel-indicators">
-    <li data-target="#carousel-example-1z" data-slide-to="0" class="active"></li>
-    <li data-target="#carousel-example-1z" data-slide-to="1"></li>
-    <li data-target="#carousel-example-1z" data-slide-to="2"></li>
-  </ol>
+
+      <hr class="mb-5">
+      <!--Carousel Wrapper-->
+        <h1 class="my-5 mt-4 h1 text-center">Отзывы</h1>
+        <!-- Section: Testimonials v.2 -->
+        <!--Carousel Wrapper-->
+<div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel" style="min-height: 80vh">
+
   <!--/.Indicators-->
   <!--Slides-->
   <div class="carousel-inner" role="listbox">
-    <!--First slide-->
-    <div class="carousel-item active">
-      <div class="row pt-5 pb-5 pl-2 pr-2" >
-        <div class="col-lg-4 col-md-12 mb-lg-0 mb-4">
-          <div class="card card-cascade wider card-ecommerce">
-            <div class="view view-cascade overlay">
-              <img src="./img/hydra-1.jpeg" class="card-img-top" alt="sample photo">
-              <a>
-                <div class="mask rgba-white-slight"></div>
-              </a>
-            </div>
-            <div class="card-body card-body-cascade text-center">
-              <a href="" class="text-muted">
-                <h5>Hydra-v</h5>
-              </a>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing minima veniam elit.</p>
-
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 mb-lg-0 mb-4">
-          <div class="card card-cascade wider card-ecommerce">
-            <div class="view view-cascade overlay">
-              <img src="./img/xtend.jpg" class="card-img-top" alt="sample photo">
-              <a>
-                <div class="mask rgba-white-slight"></div>
-              </a>
-            </div>
-            <div class="card-body card-body-cascade text-center">
-              <a href="" class="text-muted">
-                <h5>SkinCare</h5>
-              </a>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing minima veniam elit.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="card card-cascade wider card-ecommerce">
-            <div class="view view-cascade overlay">
-              <img src="./img/skincare.jpg" class="card-img-top" alt="sample photo">
-              <a>
-                <div class="mask rgba-white-slight"></div>
-              </a>
-            </div>
-            <div class="card-body card-body-cascade text-center">
-              <a href="" class="text-muted">
-                <h5>Smartphone</h5>
-              </a>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing minima veniam elit.</p>
-            </div>
-          </div>
-        </div>
-      </div>
+    <div class="carousel-item active pt-5 pb-5">
+        <div class="testimonial">
+                  <!--Avatar-->
+                  <div class="avatar mx-auto mb-4">
+                    <img src="./img/client-1.jpg" style="width: 250px; height:250px;" class="mw-100 m-auto rounded-circle img-fluid" alt="Second sample avatar image">
+                  </div>
+                  <!--Content-->
+                  <p class="m-auto col-lg-8 mt-4 " style="margin-bottom: 40px !important;">
+                       Здравствуйте! Хочу поблагодарить
+                       за труд и искреннюю заботу косметолога Татьяну!
+                       с ее помощью мое личико стало моложе,
+                       а кожа стала чистой , цвет лица ровный.
+                       Приятно на себя посмотреть
+                   </p>
+                  <h4 class="font-weight-bold text-center m-auto mt-4">Алёна Смолина</h4>
+                </div>
     </div>
-    <div class="carousel-item">
-      <div class="row pt-5 pb-5 pl-2 pr-2" >
-        <div class="col-lg-4 col-md-12 mb-lg-0 mb-4">
-          <div class="card card-cascade wider card-ecommerce">
-            <div class="view view-cascade overlay">
-              <img src="./img/hydra-1.jpeg" class="card-img-top" alt="sample photo">
-              <a>
-                <div class="mask rgba-white-slight"></div>
-              </a>
-            </div>
-            <div class="card-body card-body-cascade text-center">
-              <a href="" class="text-muted">
-                <h5>Hydra-v</h5>
-              </a>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing minima veniam elit.</p>
+    <div class="carousel-item pt-5 pb-5">
 
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 mb-lg-0 mb-4">
-          <div class="card card-cascade wider card-ecommerce">
-            <div class="view view-cascade overlay">
-              <img src="./img/xtend.jpg" class="card-img-top" alt="sample photo">
-              <a>
-                <div class="mask rgba-white-slight"></div>
-              </a>
-            </div>
-            <div class="card-body card-body-cascade text-center">
-              <a href="" class="text-muted">
-                <h5>Photography</h5>
-              </a>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing minima veniam elit.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="card card-cascade wider card-ecommerce">
-            <div class="view view-cascade overlay">
-              <img src="./img/skincare.jpg" class="card-img-top" alt="sample photo">
-              <a>
-                <div class="mask rgba-white-slight"></div>
-              </a>
-            </div>
-            <div class="card-body card-body-cascade text-center">
-              <a href="" class="text-muted">
-                <h5>Smartphone</h5>
-              </a>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing minima veniam elit.</p>
-            </div>
-          </div>
-        </div>
-      </div>
+        <div class="testimonial">
+                  <!--Avatar-->
+                  <div class="avatar mx-auto mb-4">
+                    <img src="./img/client-2.jpg" style="width: 250px; height:250px;" class="m-auto rounded-circle img-fluid" alt="Second sample avatar image">
+                  </div>
+                  <!--Content-->
+                  <p class="m-auto col-lg-8 mt-4 mb-4" style="margin-bottom: 40px;">
+                     Спасибо Татьяне за процедуру!
+                     Впечатляет мгновенный результат, т.к.
+                     с помощью программ можно решить
+                     несколько задач ухода за лицом,
+                     потом экономит время, что для меня
+                     очень важно, а если сделать не одну,
+                     а сделать уход в комплексе- результат
+                    удивляет👍😁 Рекомендую всем!!!
+                </p>
+                  <div class="div-40"></div>
+                  <h4 class="font-weight-bold text-center m-auto mt-4">Наталья Кислова</h4>
+                </div>
     </div>
-    <!--/Second slide-->
-    <!--Third slide-->
-    <div class="carousel-item">
-      <div class="row pt-5 pb-5 pl-2 pr-2" >
-        <div class="col-lg-4 col-md-12 mb-lg-0 mb-4">
-          <div class="card card-cascade wider card-ecommerce">
-            <div class="view view-cascade overlay">
-              <img src="./img/hydra-1.jpeg" class="card-img-top" alt="sample photo">
-              <a>
-                <div class="mask rgba-white-slight"></div>
-              </a>
-            </div>
-            <div class="card-body card-body-cascade text-center">
-              <a href="" class="text-muted">
-                <h5>Hydra-v</h5>
-              </a>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing minima veniam elit.</p>
+    <div class="carousel-item pt-5 pb-5">
+      <div class="testimonial">
+                <!--Avatar-->
+                <div class="avatar mx-auto mb-4">
+                  <img src="./img/client-4.jpg" style="width: 250px; height:250px;" class="m-auto rounded-circle img-fluid" alt="Second sample avatar image">
+                </div>
+                <!--Content-->
+                <p class="m-auto col-lg-8 mt-4 mb-4" style="margin-bottom: 40px;">
+                    Сначала переживала, что будет больно,
+                     но оказалось очень приятно.
+                     Кожа сделалась бархатной, нежной.
+                     Ушло раздражение кожи, я просто в
+                     восторге. Спасибо!😘
 
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 mb-lg-0 mb-4">
-          <div class="card card-cascade wider card-ecommerce">
-            <div class="view view-cascade overlay">
-              <img src="./img/xtend.jpg" class="card-img-top" alt="sample photo">
-              <a>
-                <div class="mask rgba-white-slight"></div>
-              </a>
-            </div>
-            <div class="card-body card-body-cascade text-center">
-              <a href="" class="text-muted">
-                <h5>Photography</h5>
-              </a>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing minima veniam elit.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="card card-cascade wider card-ecommerce">
-            <div class="view view-cascade overlay">
-              <img src="./img/skincare.jpg" class="card-img-top" alt="sample photo">
-              <a>
-                <div class="mask rgba-white-slight"></div>
-              </a>
-            </div>
-            <div class="card-body card-body-cascade text-center">
-              <a href="" class="text-muted">
-                <h5>Smartphone</h5>
-              </a>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing minima veniam elit.</p>
-            </div>
-          </div>
-        </div>
-      </div>
+                  </p>
+                  <div class="div-40"></div>
+                <h4 class="font-weight-bold text-center m-auto mt-4">Анжела Овчинникова</h4>
+              </div>
     </div>
-    <!--/Third slide-->
   </div>
   <!--/.Slides-->
   <!--Controls-->
-  <a class="carousel-control-prev" href="#carousel-example-1z" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" style="width: 40px; height: 40px;" aria-hidden="true"></span>
+  <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
   </a>
-  <a class="carousel-control-next" href="#carousel-example-1z" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" style="width: 40px; height: 40px;" aria-hidden="true"></span>
+  <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
   <!--/.Controls-->
 </div>
 <!--/.Carousel Wrapper-->
-
-
-      <!--Section: Not enough-->
-
-      <hr class="mb-5">
-
-      <!--Section: More-->
-      <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
-        <h1 class="my-5 mt-4 h3 text-center">Отзывы</h1>
-
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-                        <!-- Card -->
-            <div class="card testimonial-card">
-
-                <!-- Bacground color -->
-                <div class="card-up indigo lighten-1">
-                </div>
-
-                <!-- Avatar -->
-                <div class="avatar mx-auto white"><img src="https://mdbootstrap.com/img/Photos/Avatars/img%20%2810%29.jpg" class="rounded-circle">
-                </div>
-
-                <div class="card-body text-center">
-                    <!-- Name -->
-                    <h4 class="card-title text-center">Anna Doe</h4>
-                    <hr class="mt-4 mb-4">
-                    <!-- Quotation -->
-                    <p><i class="fa fa-quote-left text-center"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, adipisci</p>
-                </div>
-
-            </div>
-            <!-- Card -->
-          </div>
-          <div class="carousel-item">
-            <!-- Card -->
-              <div class="card testimonial-card">
-
-                  <!-- Bacground color -->
-                  <div class="card-up indigo lighten-1">
-                  </div>
-
-                  <!-- Avatar -->
-                  <div class="avatar mx-auto white"><img src="https://mdbootstrap.com/img/Photos/Avatars/img%20%2810%29.jpg" class="rounded-circle">
-                  </div>
-
-                  <div class="card-body text-center">
-                      <!-- Name -->
-                      <h4 class="card-title text-center">Anna Doe</h4>
-                      <hr class="mt-4 mb-4">
-                      <!-- Quotation -->
-                      <p><i class="fa fa-quote-left text-center"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, adipisci</p>
-                  </div>
-
-              </div>
-              <!-- Card -->
-            </div>
-          <div class="carousel-item">
-                        <!-- Card -->
-            <div class="card testimonial-card">
-
-                <!-- Bacground color -->
-                <div class="card-up indigo lighten-1">
-                </div>
-
-                <!-- Avatar -->
-                <div class="avatar mx-auto white"><img src="https://mdbootstrap.com/img/Photos/Avatars/img%20%2810%29.jpg" class="rounded-circle">
-                </div>
-
-                <div class="card-body text-center">
-                    <!-- Name -->
-                    <h4 class="card-title text-center">Anna Doe</h4>
-                    <hr class="mt-4 mb-4">
-                    <!-- Quotation -->
-                    <p><i class="fa fa-quote-left"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, adipisci</p>
-                </div>
-
-            </div>
-            <!-- Card -->
-          </div>
-        </div>
-        <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" style="width: 40px; height: 40px;" aria-hidden="true"></span>
-          <span class="sr-only" >Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" style="width: 40px; height: 40px;" aria-hidden="true"></span>
-          <span class="sr-only" >Next</span>
-        </a>
-      </div>
-
-    </div>
   </main>
   <!--Main layout-->
 
   <!--Footer-->
-  <footer class="page-footer text-center font-small mt-4 wow fadeIn">
+  <footer class="page-footer text-center font-small mt-4 wow fadeIn" id="footer" >
       <div class="view" style="height: 100vh; background-image: url('./img/footer.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
-        <!-- Section: Contact v.3 -->
-        <!-- Section: Contact v.3 -->
-        <section class="contact-section my-5" style="padding-top: 100px;">
+        <!--Section: Contact v.2-->
+        <section class="section">
 
-          <!-- Form with header -->
-          <div class="card pl-5" style="background: rgba(0,0,0, .3);">
+            <!--Section heading-->
+            <h2 class="h1-responsive font-weight-bold text-center my-5">Контакты</h2>
+            <!--Section description-->
+            <p class="text-center w-responsive mx-auto mb-5">
+              У вас остались вопросы? Есть пожелания? Хотите выбрать индивидуальный курс?
+              Пишите! Не стесняйтесь. Я очень люблю общаться со своими клиентами.
+            </p>
 
-            <!-- Grid row -->
-            <div class="row">
+            <div class="row" style="background-color: rgba(28, 35, 49, .2); padding-left: 100px; padding-top: 100px; padding-bottom: 100px;">
 
-              <!-- Grid column -->
-              <div class="col-lg-8">
+                <!--Grid column-->
+                <div class="col-md-6 mb-md-0 mb-5">
+                    <form id="contact-form" name="contact-form" action="mail.php" method="POST">
 
-                <div class="card-body form" >
+                        <!--Grid row-->
+                        <div class="row">
 
-                  <!-- Header -->
-                  <h3 class="mt-4"><i class="fa fa-envelope pr-2"></i>Напишите мне :</h3>
+                            <!--Grid column-->
+                            <div class="col-md-6">
+                                <div class="md-form mb-0">
+                                    <input type="text" id="name" name="name" class="form-control">
+                                    <label for="name" class="">Ваше имя</label>
+                                </div>
+                            </div>
+                            <!--Grid column-->
 
-                  <!-- Grid row -->
-                  <div class="row">
+                            <!--Grid column-->
+                            <div class="col-md-6">
+                                <div class="md-form mb-0">
+                                    <input type="text" id="email" name="email" class="form-control">
+                                    <label for="email" class="">Ваш email</label>
+                                </div>
+                            </div>
+                            <!--Grid column-->
 
-                    <!-- Grid column -->
-                    <div class="col-md-4">
-                      <div class="md-form mb-0">
-                        <input type="text" id="form-contact-name" class="form-control white-control">
-                        <label for="form-contact-name" class="label-form">Ваш Имя</label>
-                      </div>
+                        </div>
+                        <!--Grid row-->
+
+                        <!--Grid row-->
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="md-form mb-0">
+                                    <input type="text" id="subject" name="subject" class="form-control">
+                                    <label for="subject" class="">Тема письма</label>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Grid row-->
+
+                        <!--Grid row-->
+                        <div class="row">
+
+                            <!--Grid column-->
+                            <div class="col-md-12">
+
+                                <div class="md-form">
+                                    <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                                    <label for="message">Ваше сообщение</label>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!--Grid row-->
+
+                    </form>
+
+                    <div class="text-center text-md-left">
+                        <a class="btn btn-primary" onclick="validateForm()">Отправить</a>
                     </div>
-                    <!-- Grid column -->
-
-                    <!-- Grid column -->
-                    <div class="col-md-4">
-                      <div class="md-form mb-0">
-                        <input type="text" id="form-contact-email" class="form-control white-control">
-                        <label for="form-contact-email" class="label-form">Ваш email</label>
-                      </div>
-                    </div>
-                    <!-- Grid column -->
-
-                  </div>
-                  <!-- Grid row -->
-
-                  <!-- Grid row -->
-                  <div class="row">
-
-                    <!-- Grid column -->
-                    <div class="col-md-4">
-                      <div class="md-form mb-0">
-                        <input type="text" id="form-contact-phone" class="form-control white-control">
-                        <label for="form-contact-phone" class="label-form">Ваш телефон</label>
-                      </div>
-                    </div>
-                    <!-- Grid column -->
-
-                    <!-- Grid column -->
-                    <div class="col-md-4">
-                      <div class="md-form mb-0">
-                        <input type="text" id="form-contact-company" class="form-control white-control">
-                        <label for="form-contact-company" class="label-form">Откуда узнали</label>
-                      </div>
-                    </div>
-                    <!-- Grid column -->
-
-                  </div>
-                  <!-- Grid row -->
-
-                  <!-- Grid row -->
-                  <div class="row">
-
-                    <!-- Grid column -->
-                    <div class="col-md-8">
-                      <div class="md-form mb-0">
-                        <textarea type="text" id="form-contact-message" class="form-control white-control md-textarea" rows="3"></textarea>
-                        <label for="form-contact-message">Ваше сообщение</label>
-
-                        <button type="submit" name="button" class="btn btn-outline-white btn-lg">
-                          Отправить
-                        </button>
-                      </div>
-                    </div>
-                    <!-- Grid column -->
-
-                  </div>
-                  <!-- Grid row -->
-
+                    <div class="status"></div>
                 </div>
+                <!--Grid column-->
 
-              </div>
-              <!-- Grid column -->
+                <!--Grid column-->
+                <div class="col-md-4 text-center">
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                          <a href="tel:89961666762" class="nav-link border border-light rounded waves-effect waves-light"
+                            target="_blank">
+                            <i class="fa fa-phone mr-2"></i>8(927) 641-09-21
+                          </a>
+                        </li>
 
-              <!-- Grid column -->
-              <div class="col-lg-4">
-
-                <div class="card-body contact text-center h-100 white-text" style="background: rgba(0,0,0, .2);">
-
-                  <h3 class="my-4 pb-2">Contact information</h3>
-                  <ul class="text-lg-left list-unstyled ml-4">
-                    <li>
-                      <p><i class="fa fa-map-marker pr-2"></i>New York, 94126, USA</p>
-                    </li>
-                    <li>
-                      <p><i class="fa fa-phone pr-2"></i>+ 01 234 567 89</p>
-                    </li>
-                    <li>
-                      <p><i class="fa fa-envelope pr-2"></i>contact@example.com</p>
-                    </li>
-                  </ul>
-                  <hr class="hr-light my-4">
-                  <ul class="list-inline text-center list-unstyled">
-                    <li class="list-inline-item">
-                      <a class="p-2 fa-lg tw-ic">
-                        <i class="fa fa-twitter"></i>
-                      </a>
-                    </li>
-                    <li class="list-inline-item">
-                      <a class="p-2 fa-lg li-ic">
-                        <i class="fa fa-linkedin"> </i>
-                      </a>
-                    </li>
-                    <li class="list-inline-item">
-                      <a class="p-2 fa-lg ins-ic">
-                        <i class="fa fa-instagram"> </i>
-                      </a>
-                    </li>
-                  </ul>
-
+                        <li><i class="fa fa-envelope mt-4 fa-2x"></i>
+                            <p>tat.beauty.contact@gmail.com</p>
+                        </li>
+                    </ul>
                 </div>
-
-              </div>
-              <!-- Grid column -->
+                <!--Grid column-->
 
             </div>
-            <!-- Grid row -->
-
-          </div>
-          <!-- Form with header -->
 
         </section>
-        <!-- Section: Contact v.3 -->
-        <!-- Section: Contact v.3 -->
+        <!--Section: Contact v.2-->
       </div>
     <div class="footer-copyright py-3">
       © 2018 Copyright:
@@ -1014,63 +965,92 @@
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <h5 class="modal-title" id="exampleModalLabel">Напишите мне</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
         <div class="modal-body">
-          <!-- Default form login -->
-          <form class="text-center border border-light p-5">
+          <!--Section: Contact v.2-->
+          <section class="section">
 
-              <p class="h4 mb-4">Sign in</p>
-
-              <!-- Email -->
-              <input type="email" id="defaultLoginFormEmail" class="form-control mb-4" placeholder="E-mail">
-
-              <!-- Password -->
-              <input type="password" id="defaultLoginFormPassword" class="form-control mb-4" placeholder="Password">
-
-              <div class="d-flex justify-content-around">
-                  <div>
-                      <!-- Remember me -->
-                      <div class="custom-control custom-checkbox">
-                          <input type="checkbox" class="custom-control-input" id="defaultLoginFormRemember">
-                          <label class="custom-control-label" for="defaultLoginFormRemember">Remember me</label>
-                      </div>
-                  </div>
-                  <div>
-                      <!-- Forgot password -->
-                      <a href="">Forgot password?</a>
-                  </div>
-              </div>
-
-              <!-- Sign in button -->
-              <button class="btn btn-info btn-block my-4" type="submit">Sign in</button>
-
-              <!-- Register -->
-              <p>Not a member?
-                  <a href="">Register</a>
+              <!--Section heading-->
+              <h2 class="h1-responsive font-weight-bold text-center my-5">Напишите мне</h2>
+              <!--Section description-->
+              <p class="text-center w-responsive mx-auto mb-5">
+                У вас остались вопросы? Есть пожелания? Хотите выбрать индивидуальный курс?
+                Пишите! Не стесняйтесь. Я очень люблю общаться со своими клиентами.
               </p>
 
-              <!-- Social login -->
-              <p>or sign in with:</p>
+              <div class="row">
 
-              <a type="" class=" light-blue-text mx-2">
-                  <i class="fa fa-facebook"></i>
-              </a>
-              <a type="" class=" light-blue-text mx-2">
-                  <i class="fa fa-twitter"></i>
-              </a>
-              <a type="" class=" light-blue-text mx-2">
-                  <i class="fa fa-linkedin"></i>
-              </a>
-              <a type="" class=" light-blue-text mx-2">
-                  <i class="fa fa-github"></i>
-              </a>
+                  <!--Grid column-->
+                  <div class="col-md-12 mb-md-0 mb-5">
+                      <form id="contact-form" name="contact-form" action="mail.php" method="POST">
 
-          </form>
-          <!-- Default form login -->
+                          <!--Grid row-->
+                          <div class="row">
+
+                              <!--Grid column-->
+                              <div class="col-md-6">
+                                  <div class="md-form mb-0">
+                                      <input type="text" id="name" name="name" class="form-control">
+                                      <label for="name" class="">Ваше имя</label>
+                                  </div>
+                              </div>
+                              <!--Grid column-->
+
+                              <!--Grid column-->
+                              <div class="col-md-6">
+                                  <div class="md-form mb-0">
+                                      <input type="text" id="email" name="email" class="form-control">
+                                      <label for="email" class="">Ваш email</label>
+                                  </div>
+                              </div>
+                              <!--Grid column-->
+
+                          </div>
+                          <!--Grid row-->
+
+                          <!--Grid row-->
+                          <div class="row">
+                              <div class="col-md-12">
+                                  <div class="md-form mb-0">
+                                      <input type="text" id="subject" name="subject" class="form-control">
+                                      <label for="subject" class="">Тема письма</label>
+                                  </div>
+                              </div>
+                          </div>
+                          <!--Grid row-->
+
+                          <!--Grid row-->
+                          <div class="row">
+
+                              <!--Grid column-->
+                              <div class="col-md-12">
+
+                                  <div class="md-form">
+                                      <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                                      <label for="message">Ваше сообщение</label>
+                                  </div>
+
+                              </div>
+                          </div>
+                          <!--Grid row-->
+
+                      </form>
+
+                      <div class="text-center modaling-btn row align-items-center justify-content-center">
+                          <a class="btn btn-outline-black btn-lg" onclick="document.getElementById('contact-form').submit();">Отправить </a>
+                          <a href="tel:89961666762" class="btn btn-outline-black btn-lg"
+                            target="_blank">
+                            <i class="fa fa-phone mr-2"></i>Позвонить
+                          </a>
+                      </div>
+                      <div class="status"></div>
+                  </div>
+              </div>
+          </section>
         </div>
       </div>
     </div>
@@ -1084,8 +1064,48 @@
   <script type="text/javascript" src="js/bootstrap.min.js"></script>
   <!-- MDB core JavaScript -->
   <script type="text/javascript" src="js/mdb.min.js"></script>
+  <script type="text/javascript" src="js/ajax.js"></script>
   <!-- Initializations -->
+  <script>
+    function validateForm() {
+      var name =  document.getElementById('name').value;
+      if (name == "") {
+          document.getElementById('status').innerHTML = "Name cannot be empty";
+          return false;
+      }
+      var email =  document.getElementById('email').value;
+      if (email == "") {
+          document.getElementById('status').innerHTML = "Email cannot be empty";
+          return false;
+      } else {
+          var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+          if(!re.test(email)){
+              document.getElementById('status').innerHTML = "Email format invalid";
+              return false;
+          }
+      }
+      var subject =  document.getElementById('subject').value;
+      if (subject == "") {
+          document.getElementById('status').innerHTML = "Subject cannot be empty";
+          return false;
+      }
+      var message =  document.getElementById('message').value;
+      if (message == "") {
+          document.getElementById('status').innerHTML = "Message cannot be empty";
+          return false;
+      }
+      document.getElementById('status').innerHTML = "Sending...";
+      document.getElementById('contact-form').submit();
+
+    }
+</script>
   <script type="text/javascript">
+      $('.nav-link[href^="#"]').bind('click.smoothscroll', function(){
+      var target = $(this).attr('href'),
+          bl_top = $(target).offset().top;
+          $('body, html').animate( { scrollTop: bl_top}, 1000 );
+          return false;
+    });
     // Animations initialization
     new WOW().init();
   </script>
