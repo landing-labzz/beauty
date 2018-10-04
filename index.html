@@ -1066,6 +1066,14 @@
           $('body, html').animate( { scrollTop: bl_top}, 1000 );
           return false;
     });
+    $("#contact-form").submit(function(e) {
+      e.preventDefault();
+
+      var $form = $(this);
+      $.post($form.attr("action"), $form.serialize()).then(function() {
+        alert("Thank you!");
+      });
+});
     // Animations initialization
     new WOW().init();
   </script>
