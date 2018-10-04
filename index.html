@@ -1027,9 +1027,6 @@
                               </div>
                           </div>
                           <!--Grid row-->
-
-                      </form>
-
                       <div class="text-center modaling-btn row align-items-center justify-content-center">
                           <button type="submit" class="btn btn-outline-black btn-lg">Отправить </button>
                           <a href="tel:89961666762" class="btn btn-outline-black btn-lg"
@@ -1037,6 +1034,9 @@
                             <i class="fa fa-phone mr-2"></i>Позвонить
                           </a>
                       </div>
+                      </form>
+
+
                       <div id="status" class="status"></div>
                   </div>
               </div>
@@ -1066,14 +1066,6 @@
           $('body, html').animate( { scrollTop: bl_top}, 1000 );
           return false;
     });
-    $("#contact-form").submit(function(e) {
-      e.preventDefault();
-
-      var $form = $(this);
-      $.post($form.attr("action"), $form.serialize()).then(function() {
-        alert("Thank you!");
-      });
-});
     // Animations initialization
     new WOW().init();
   </script>
