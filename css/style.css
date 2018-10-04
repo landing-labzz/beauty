@@ -48,14 +48,8 @@ p {
 .transparent {
   background: transparent; }
 
-.label-form {
-  color: #fff; }
-
 .carousel-control-prev-icon {
   font-size: 40px; }
-
-.md-form label {
-  color: #fff !important; }
 
 /* Adding color to the Navbar on mobile */
 /* Required for full background image */
